@@ -81,4 +81,12 @@ function initCard(card, data) {
 
     const descritption = card.querySelector("p");
     descritption.innerText = data.content.description;
+
+    // OR
+
+    // const heading = card.querySelector("main > h1");
+    // heading.innerText = data.content.title;
+
+    // const description = card.querySelector("main > p");
+    // description.innerText = data.content.description;
 }
